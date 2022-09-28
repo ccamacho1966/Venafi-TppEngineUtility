@@ -64,6 +64,8 @@ Compare the configuration of the TPP engine 'VENTPP01' to the settings saved in 
 .EXAMPLE
 TPPEngineUtility.ps1 -CompareOnly VENTPP01 VENTPP02
 Compare the configurations of the TPP engines 'VENTPP01' and 'VENTPP02'
+.LINK
+https://github.com/ccamacho1966/Venafi-TppEngineUtility
 #>
 
 #Requires -Modules @{ ModuleName='VenafiPS'; ModuleVersion='5.0.0' }
